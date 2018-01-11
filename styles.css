@@ -18,6 +18,7 @@ h2, p {
   text-align: center;
   color: yellow;
   margin-top: 20px;
+
 }
 
 h3 {
@@ -29,16 +30,18 @@ h3 {
 }
 
 form {
-  display: fixed;
-  text-align: center;
+  display: inline-block;
+  text-align: left;
   color: yellow;
 }
 
-p {
+.form{
   display: fixed;
-  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
   font-size: 18px;
-  color: yellow;
 }
 
 .ava {
@@ -47,6 +50,16 @@ p {
   margin: 0 auto;
   border-radius: 50%;
   margin-top: 75px;
+}
+
+.classname, .classemail{
+  width:250px;
+  border-color: yellow;
+  border-width: 4px;
+}
+
+.label1, .label2{
+
 }
 
 .button-special {
@@ -66,12 +79,19 @@ p {
 
 }
 
+textarea{
+  border-color: yellow;
+  border-width: 4px;
+
+}
+
 .submit{
   background: black;
   color: white;
   padding: 8px 16px;
-  border: 4px solid #00ffff;
-  margin: 10px;
+  border: 4px solid yellow;
+  margin-top: 20px;
+  margin-left: 75px;
   border-radius: 10%;
   font-weight: bold;
   cursor: pointer;
