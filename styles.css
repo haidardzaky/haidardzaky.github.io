@@ -156,7 +156,7 @@ it should always be at the center of the browser */
   display: inline-block;
   width: 40px;
   height: 40px;
-  line-height: 40px;
+  line-height: 20px;
   margin: 20px;
   text-align: center;
   cursor: pointer;
