@@ -52,7 +52,7 @@ p {
 .button-special {
   text-align: center;
   display: fixed;
-  margin: 20px;
+  margin: 25px;
 }
 
 .button {
@@ -87,7 +87,7 @@ p {
   background: transparent;
   color: yellow;
   border: 4px solid #00ffff;
-  margin: 20px;
+  margin: 10px;
   border-radius: 25%;
   font-weight: bold;
   -webkit-transition-duration: 0.4s;
@@ -117,7 +117,7 @@ it should always be at the center of the browser */
   left: 50%;
   transform: translate(-50%, -50%);
 
-  margin-top: 50px;
+  margin-top: 60px;
 
 }
 
