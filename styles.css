@@ -11,13 +11,12 @@ h1 {
   margin-top: 20px;
 }
 
-h2, p{
+h2, p {
   font-family: sans-serif;
   position: relative;
   text-align: center;
   color: yellow;
   margin-top: 20px;
-
 }
 
 h3 {
@@ -44,28 +43,26 @@ p {
 
 .button-special {
   text-align: center;
+  display: fixed;
+  bottom: 20%;
+  left: 50%;
+  margin-top: 30px;
 }
 
 .button {
   border: none;
-  left: 50%;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   align-items: center;
-  justify-content: center;
-  margin-top: 30px;
   font-size: 16px;
   -webkit-transition-duration: 0.4s;
   /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-
 }
 
-
-.button1 {
+.button1, .button2, .button3 {
   background: transparent;
   color: yellow;
   border: 4px solid #00ffff;
@@ -74,25 +71,12 @@ p {
   font-weight: bold;
 }
 
-.button1:hover {
+.button1:hover, .button2:hover, .button3:hover {
   background-color: #00ffff;
   color: black;
 }
 
-.button2 {
-  background: transparent;
-  color: yellow;
-  border: 4px solid #00ffff;
-  border-radius: 25%;
-  font-weight: bold;
-}
-
-.button2:hover {
-  background-color: #00ffff;
-  color: black;
-}
-
-a{
+a {
   border: transparent;
 }
 
@@ -108,8 +92,8 @@ it should always be at the center of the browser */
   display: block;
   position: fixed;
   left: 50%;
+  bottom: 2%;
   transform: translate(-50%, -50%);
-  margin-top: 120px;
 }
 
 /* Style the Un-order list by setting its list-style to none */
@@ -171,7 +155,7 @@ to align it properly */
 }
 
 .wrapper ul li:hover .fa-github {
-  color:#999;
+  color: #999;
   text-shadow: 0 0 15px #999;
   transition: all 0.5s ease;
 }
