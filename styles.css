@@ -116,15 +116,16 @@ it should always be at the center of the browser */
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-content: center;
-  margin-top: 20px;
+
+  margin-top: 50px;
+
 }
 
 /* Style the Un-order list by setting its list-style to none */
 
 .wrapper ul {
-  list-style: none;
   text-align:center;
+  margin: 20px;
 
 }
 
@@ -137,12 +138,11 @@ it should always be at the center of the browser */
   width: 40px;
   height: 40px;
   line-height: 40px;
-  margin: 0 10px;
+  margin: 20px;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
   border: 5px solid #D8E2DC;
-  float: left;
   transition: all 0.5s ease;
 }
 
@@ -240,9 +240,6 @@ to align it properly */
   }
   .wrapper ul li {
     margin-top: 10px;
-  }
-  .wrapper ul li.google {
-    margin-left: 60px;
   }
 }
 
